@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	12pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+% \usepackage{ETbb} % Use the EB Garamond font
+\usepackage{ebgaramond}
+
+%------------------------------------------------
+
+\name{Zhaoyi Ge} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{Waterloo, ON} % Main address
+
+\address{z33ge@uwaterloo.ca} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	\textbf{University of Waterloo} \hfill {September 2020 - May 2025} \\ 
+	Bachelor of Computer Science (GPA: 91\%) \\
+    Relevant Courses: \\
+    \hspace*{5mm} CS 245E - Logic and Computation (Enriched) - 100\% \\
+    \hspace*{5mm} CS 241E - Foundations of Sequential Programs (Enriched) - 91\% \\
+    \hspace*{5mm} PMATH 347 - Groups and Rings - 93\% 
+\end{rSection}
+
+\begin{rSection}{Research Interests}
+	Programming language design, type system, semantics, logic in computer science.
+\end{rSection}
+
+\begin{rSection}{Research Experience}
+	\begin{rSubsection}{Univeristy of Waterloo}{September 2023 - December 2024}{Undergraduate Research Fellow}{}
+		\item \textbf{Supervisor}: Yizhou Zhang
+		\item \textbf{Project Title}: SSTAL: Stack-based Typed Assembly Language with Multi-stack Semantics
+		\item The aim of this project was to develop an efficient target language for high-level languages with lexical effect handlers.
+		The target language allows fast effect handling by having a type-safe multi-stack hierarchy.
+		\\ I implemented a prototype compiler of SSTAL in OCaml, which invovles designed and implemented type-checking algorithms for stack types and capabilities.
+		This work is to be submitted to ICFP 2024.
+		% stack type checking algorithm, determinstic
+		% 
+	\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+	\begin{rSubsection}{Genesys}{May 2023 - August 2023}{Software Developer Intern}{Markham, Ontario}
+		\item Led the development of a security automation service in Python for cloud native applications.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{MeshAI}{May 2022 - August 2022}{Software Developer Intern}{Remote}
+		\item Developed healthcare services using Java and GraphQL. Improved response time by caching using Redis.
+		% \item Developed features for a serverless web application using GraphQL and AWS Amplify.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	% \begin{rSubsection}{Xinfangde Technology Group Co., Ltd.}{September 2021 - December 2021}{Full-stack Developer Intern}{China}
+	% 	\item Implemented algorithms and APIs for quantitative analysis of mutual funds using Java.
+	% \end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+     \begin{rSubsection}{Proust}{CS 245E Course Project}{}{}
+        \item Developed a simple interactive proof assistant for propositional and predicate logic using Racket.
+        \item Proved theorems about natural numbers and Boolean algebra using the proof assistant.
+     \end{rSubsection}
+     \begin{rSubsection}{Lacs}{CS 241E Course Project}{}{}
+		\item Implemented a compiler for a minimal Scala-like language using Scala.
+        \item Developed features such as garbage collection, higher-order functions and closures.
+	\end{rSubsection}
+ % \begin{rSubsection}{DAVIS Video Segmentation Challenge}{CS 484 Course Project}{}{}
+ %    \item Implemented a convolutional neural networks video segmentation model in PyTorch, achieved a score of 60\% on the evaluation dataset.
+ % \end{rSubsection}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		% Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
+  	Languages & OCaml, Coq, Scala, Agda, Racket, C++.\\
+	Tools and Technologies & Git, Docker, x86 Assembly.
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+	%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
