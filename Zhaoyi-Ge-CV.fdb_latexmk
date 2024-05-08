@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1706737234 "/Users/august/Downloads/Zhaoyi-Ge-CV/Zhaoyi-Ge-CV.tex" "Zhaoyi-Ge-CV.pdf" "Zhaoyi-Ge-CV" 1706737234
-  "/Users/august/Downloads/Zhaoyi-Ge-CV/Zhaoyi-Ge-CV.tex" 1706737233 5967 394032ff51cc7be8e2d78876da1ff7cb ""
+["pdflatex"] 1710978267 "/Users/august/Downloads/Zhaoyi-Ge-CV/Zhaoyi-Ge-CV.tex" "Zhaoyi-Ge-CV.pdf" "Zhaoyi-Ge-CV" 1710978268
+  "/Users/august/Downloads/Zhaoyi-Ge-CV/Zhaoyi-Ge-CV.tex" 1710978267 5969 1904f6fae5edfc0674a59928c89fda50 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fc2mbn.enc" 1571867360 2970 89c5318a47449b4215340e7a37f35279 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tsrvmb.enc" 1571867360 2994 28362530a7f06bca5daa08a5e64a433b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -57,8 +57,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664416093 2826441 56e7548acc8f276110e0a9409be6558b ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Zhaoyi-Ge-CV.aux" 1706737234 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "Zhaoyi-Ge-CV.tex" 1706737233 5967 394032ff51cc7be8e2d78876da1ff7cb ""
+  "Zhaoyi-Ge-CV.aux" 1710978268 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "Zhaoyi-Ge-CV.tex" 1710978267 5969 1904f6fae5edfc0674a59928c89fda50 ""
   "resume.cls" 1681763490 6088 430b503d863c9c05e37b31fbac2ad21a ""
   (generated)
   "Zhaoyi-Ge-CV.aux"
