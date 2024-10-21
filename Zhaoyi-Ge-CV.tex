@@ -29,8 +29,9 @@
 % \usepackage{ETbb} % Use the EB Garamond font
 \usepackage{ebgaramond}
 \usepackage{xcolor}
+\usepackage{latexsym}
 %------------------------------------------------
-
+\newcommand\CC{$\textsf{CC}_{<:\Box}~$}
 \name{Zhaoyi (August) Ge} % Your name to appear at the top
 
 % You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
@@ -50,15 +51,11 @@
 
 \begin{rSection}{Education}
 	\textbf{University of Waterloo} \hfill {September 2020 - May 2025} \\ 
-	Bachelor of Computer Science (GPA: 91\%) \\
-    Relevant Courses: \\
-    \hspace*{5mm} CS 245E - Logic and Computation (Enriched) - 100\% \\
-    \hspace*{5mm} CS 241E - Foundations of Sequential Programs (Enriched) - 91\% \\
-    \hspace*{5mm} PMATH 347 - Groups and Rings - 93\% 
+	Bachelor of Computer Science (GPA: 91\%)
 \end{rSection}
 
 \begin{rSection}{Research Interests}
-	Programming Language Design / Type Systems / Functional Programming / Logic in Computer Science.
+	Type Systems / Functional Programming / Logic in Computer Science.
 \end{rSection}
 
 \begin{rSection}{Publications}
@@ -70,9 +67,19 @@
 
 \begin{rSection}{Research Experience}
 	\begin{rSubsection}{Univeristy of Waterloo}{September 2023 - December 2023, May 2024 - Present}{Undergraduate Research Fellow}{}
-		% \item \textbf{Paper Title}: Lexical Effect Handlers, Directly (Submitted to \textbf{OOPSLA 2024}).
-		\item Constructed a compiler for Lexi, a language supporting efficient lexical effect handlers. The compiler is written in OCaml and compiles Lexi into C.
-		\item Constructed a compiler for STAL (Stack-based Typed Assembly Language) using OCaml and x86 Assembly, implemented a type checker for assembly instructions and stack operations. 
+		\item Supervised by: Yizhou Zhang.
+		\item Constructed a compiler for Lexi, a language with a compilation strategy that supports
+		efficient lexical effect handlers. The compiler is written in OCaml and compiles Lexi into C.
+		The compiler features closure conversion and tail call optimization. 
+		Rewrote suite of effect handlers benchmark for using Lexi.
+		\item Constructed a compiler for STAL (Stack-based Typed Assembly Language) using OCaml and x86 Assembly,
+		implemented a type checker for assembly instructions and stack/heap operations. 
+	\end{rSubsection}
+	\begin{rSubsection}{Univeristy of Waterloo}{May 2024 - Present}{Undergraduate Research Assistant}{}
+		\item Supervised by: Ondřej Lhoták.
+		\item Refactored the Coq soundness proof for System \CC by using inductively defined capture sets 
+		instead of a set-based definition, which simplifies the proof 
+		and provides the potential for extensions to capture sets.
 	\end{rSubsection}
 \end{rSection}
 
@@ -84,13 +91,14 @@
 
 	\begin{rSubsection}{Genesys}{May 2023 - August 2023}{Software Developer Intern}{Markham, Ontario}
 		\item Led the development of a security automation service in Python for cloud native applications.
+		\item Designed DynamoDB schemas for efficient data lookup.
 		% \item Designed DynamoDB table to enable fast data retrieval with indexing.
 	\end{rSubsection}
 
 %------------------------------------------------
 
 	\begin{rSubsection}{MeshAI}{May 2022 - August 2022}{Software Developer Intern}{Remote}
-		\item Built healthcare services using Java and GraphQL. Improved response time by caching using Redis.
+		\item Built healthcare services using Java, GraphQL and Vue.js. Improved response time by caching using Redis.
 		% \item Developed features for a serverless web application using GraphQL and AWS Amplify.
 	\end{rSubsection}
 
